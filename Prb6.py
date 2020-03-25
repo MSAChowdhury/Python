@@ -7,4 +7,4 @@ else:
     celsius = input("Enter the temperature in Celsius: ")
     farenheit = float(celsius) * (5/9) + 32
     print("The temperature in Farenheit is: {0:.2f}".format(farenheit))
-# to have precision after decimal point in python, there are two types ("%.2f" % round(celsius,2)) or "{0:.2f}".format(farenheit) or "{0:.2f}".format(round(farenheit,2))
+# to have precision after decimal point in python, there are types: ("%.2f" % variable) or ("%.2f" % round(celsius,2)) or "{0:.2f}".format(farenheit) or "{0:.2f}".format(round(farenheit,2))
